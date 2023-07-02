@@ -9,16 +9,14 @@ plugins{
 
 
 android {
-    compileSdkVersion BuildConfig.compileSdkVersion
-    buildToolsVersion BuildConfig.buildToolsVersion
+    compileSdk BuildConfig.compileSdkVersion
+    namespace 'namespace com.hi.dhl.pokemon'
 
     defaultConfig {
-        applicationId "com.hi.dhl.pokemon"
-        minSdkVersion BuildConfig.minSdkVersion
-        targetSdkVersion BuildConfig.targetSdkVersion
+        minSdk BuildConfig.minSdkVersion
+        targetSdk BuildConfig.targetSdkVersion
         versionCode BuildConfig.versionCode
         versionName BuildConfig.versionName
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
